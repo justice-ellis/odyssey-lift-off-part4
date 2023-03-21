@@ -11,10 +11,10 @@ const typeDefs = gql`
   }
 
   type Mutation {
-    incrementTRackViews(id: ID!): ??
+    incrementTrackViews(id: ID!): ??
   }
 
-  type  incrementTRackViewsResponse {
+  type  incrementTrackViewsResponse {
     "Similar to HTTP status code, represent the status of the mutation"
     code: Int!
     "Indicate whether the mutation was successful"
